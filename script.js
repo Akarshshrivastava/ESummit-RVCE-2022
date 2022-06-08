@@ -19,3 +19,4 @@ const countdown = () => {
     document.querySelector(".minutes-value").innerText = valueMinute;
     document.querySelector(".seconds-value").innerText = valueSecond;
 };
+setInterval(countdown, 1000);
